@@ -1,0 +1,26 @@
+[
+  {
+    "name": "View Any",
+    "slug": "view-any"
+  },
+  {
+    "name": "View",
+    "slug": "view"
+  },
+  {
+    "name": "Create",
+    "slug": "create"
+  },
+  {
+    "name": "Update",
+    "slug": "update"
+  },
+  {
+    "name": "Delete",
+    "slug": "delete"
+  },
+  {
+    "name": "Publish",
+    "slug": "publish"
+  }
+]

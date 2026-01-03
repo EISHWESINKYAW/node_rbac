@@ -1,0 +1,94 @@
+{
+  "roles": [
+    {
+      "name": "Admin",
+      "slug": "admin"
+    },
+    {
+      "name": "Editor",
+      "slug": "editor"
+    }
+  ],
+  "permissions": [
+    {
+      "name": "View Any",
+      "slug": "view-any"
+    },
+    {
+      "name": "View",
+      "slug": "view"
+    },
+    {
+      "name": "Create",
+      "slug": "create"
+    },
+    {
+      "name": "Update",
+      "slug": "update"
+    },
+    {
+      "name": "Delete",
+      "slug": "delete"
+    },
+    {
+      "name": "Publish",
+      "slug": "publish"
+    }
+  ],
+  "users": [
+    {
+      "email": "admin@example.com"
+    },
+    {
+      "email": "editor@example.com"
+    }
+  ],
+  "rolePermissions": [
+    {
+      "role": "admin",
+      "permission": "view-any"
+    },
+    {
+      "role": "admin",
+      "permission": "view"
+    },
+    {
+      "role": "admin",
+      "permission": "create"
+    },
+    {
+      "role": "admin",
+      "permission": "update"
+    },
+    {
+      "role": "admin",
+      "permission": "delete"
+    },
+    {
+      "role": "admin",
+      "permission": "publish"
+    },
+    {
+      "role": "editor",
+      "permission": "view"
+    },
+    {
+      "role": "editor",
+      "permission": "create"
+    },
+    {
+      "role": "editor",
+      "permission": "update"
+    }
+  ],
+  "userRoles": [
+    {
+      "user": "admin@example.com",
+      "role": "admin"
+    },
+    {
+      "user": "editor@example.com",
+      "role": "editor"
+    }
+  ]
+}

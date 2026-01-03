@@ -1,0 +1,21 @@
+{
+    "name": "@rbac-package/node-rbac",
+    "version": "0.1.0",
+    "description": "Role-based access control for Node.js with SQLite, middleware, migrations",
+    "license": "MIT",
+    "type": "commonjs",
+    "main": "src/rbac.js",
+    "exports": {
+        ".": "./src/rbac.js",
+        "./middleware/role": "./src/middleware/role.js",
+        "./middleware/permission": "./src/middleware/permission.js"
+    },
+    "bin": {
+        "rbac-migrate": "bin/rbac-migrate.js",
+        "rbac-permissions": "bin/rbac-permissions.js",
+        "rbac-seed": "bin/rbac-seed.js"
+    },
+    "dependencies": {
+        "sqlite3": "^5.1.6"
+    }
+}
